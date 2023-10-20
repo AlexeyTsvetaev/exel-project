@@ -1,0 +1,47 @@
+{
+  "name": "vladilen-less",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Exel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyTsvetaev/exel-project.git"
+  },
+  "keywords": [
+    "js",
+    "js",
+    "exel"
+  ],
+  "author": "Skiller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexeyTsvetaev/exel-project/issues"
+  },
+  "homepage": "https://github.com/AlexeyTsvetaev/exel-project#readme",
+  "private": true,
+  "browserslist": ">0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "eslint": "^7.32.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.69.4",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
